@@ -2,7 +2,17 @@ import os
 import subprocess
 import commands
 import time
-from tqdm import tqdm_notebook.tqdm
+from itertools import chain, combinations
+from scipy.special import binom 
+
+def binomial(a,b):
+    return int(binom(a,b))
+
+def Subsets(length, size):
+    s = range(1, length+1)
+    return list(combinations(s, size))
+# def Subsets(range, size):
+
 
 def generate_sms(mat, dic):
     items = sorted(dic.items())
@@ -15,7 +25,7 @@ def generate_sms(mat, dic):
 
 def create_sms_file(mat, result_string):
     sms_file= open("spasm/bench/bivariant_matrix.sms","w+")
-    sms_file.write('{} {} M\n'.format(mat.nrows(), mat.ncols()))
+    sms_file.write('{} {} M\n'.format(mat[0], mat[1]))
     sms_file.write(result_string)
     return sms_file
 
@@ -27,7 +37,7 @@ def run_spasm_rank():
 
 n = 0
 p = 0
-result_matrix = matrix
+result_matrix_dim = (0,0)
 enumeration_dictionary = {}
 result_dictionary = {}
 result_array = []
@@ -58,7 +68,6 @@ def generate_matrix(n_val, p_val):
 def generate_enumerated_permutation():
     timerValue = time.time()
 
-
     global enumeration_dictionary
 #     c=sum(binomial(p-1+i,i+1) for i in range(n))
 #     c-sum(binomial(p-2+n-a[i]-i,n-i) for i in range(n)) (set tuple value to this, may be unnecessary)
@@ -79,9 +88,10 @@ def enumerate_permutation(perm):
 def generate_initial_matrix():
     nvars=binomial(p-1+n,n)
     neqs=1+sum(binomial(p-1+k,k)*binomial(p-1+n-k,n-k) for k in [2]) 
-    M=matrix(QQ,neqs,nvars,sparse=True)
-    eqn=0;j=enumerate_permutation([0 for i in [1..n]]);M[eqn,j]=1
-    return M
+    # M=matrix(QQ,neqs,nvars,sparse=True)
+    # eqn=0;j=enumerate_permutation([0 for i in [1..n]]);M[eqn,j]=1
+    # print(nvars, neqs)
+    return (int(nvars), int(neqs))
 
 # Generates initial values for the Dictionary
 def generate_initial_dictionary():
@@ -106,8 +116,7 @@ def calculate_column_values(a, b, k):
 # Iterates through all permutations of a, b
 def iterate_permutations(k, handle_permutation):
     global eqn_row
-    for aset in tqdm_notebook(Subsets(p-1+k,k)): 
-#     for aset in Subsets(p-1+k,k): 
+    for aset in Subsets(p-1+k,k): 
         alist=list(aset)
         alist.sort()
         a=[alist[i]-i-1 for i in range(k)]
@@ -120,21 +129,20 @@ def iterate_permutations(k, handle_permutation):
 # Handles what to do with each iterated permutation
 def evaluate_permutation(a, b, k):
     j=enumerate_permutation(a+b)
-    result_matrix[eqn_row,j]=1
+    # result_matrix[eqn_row,j]=1
     result_dictionary[(eqn_row, j)] = 1
     calculate_column_values(a, b, k)
 
 # Starts process of populating matrix / dictionary
 def populate_matrix(): 
-    for k in [2]:
+    # for k in [2]:
         iterate_permutations(2, evaluate_permutation)
 
-for i in [2..500]:
+for i in range(2,500):
     timerValue = time.time()
     generated_matrix, generated_dictionary = generate_matrix(5,i)
-
     #     matrix solution
-#     rank = generated_matrix.rank()
+    #     rank = generated_matrix.rank()
 
     #     dictionary solution
     generate_sms(generated_matrix, generated_dictionary)
