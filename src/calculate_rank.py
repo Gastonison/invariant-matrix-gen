@@ -1,10 +1,10 @@
 import os
 import time
 from matrix_generator_direct_sum_mod import generate_matrix
-from algorithm_utils import run_spasm_rank, generate_sms, binomial, p_prod, direct_sum_combinations
+from algorithm_utils import run_spasm_rank, generate_sms, binomial, p_prod, direct_sum_combinations, primes
         
-n = 5
-array = [(5, i) for i in range(1, 200)]
+n = 2
+array = [(i, i, i, i) for i in primes(200)]
 
 for p in array:    
     timerValue = time.time()
