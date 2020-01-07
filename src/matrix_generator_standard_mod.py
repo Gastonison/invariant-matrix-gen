@@ -32,11 +32,10 @@ def generate_enumerated_permutation():
         a = map_subset(aset)
         enumeration_dictionary[tuple(a)] = count
         count += 1
-    print("Populating enumerated list took {} seconds".format(time.time() % timerValue))
+    # print("Populating enumerated list took {} seconds".format(time.time() % timerValue))
         
 def enumerate_permutation(perm):
     return enumeration_dictionary[tuple(sorted(perm))]
-
 
 # MARK - This is where the matrix is changed to any other data structure
 # Generates initial values for the Matrix
@@ -66,19 +65,13 @@ def iterate_permutations(k, handle_permutation):
     global eqn_row
     for aset in subsets(p-1+k,k):
         a = map_subset(aset)
-        # print(a)
-        # print("~~~~~~~~")
         for bset in subsets(p-1+n-k,n-k):
             eqn_row=eqn_row+1
             b = map_subset(bset)
-            # print(b)
-            # print("-----")
             handle_permutation(a, b, k)
             
 # Handles what to do with each iterated permutation
 def evaluate_permutation(a, b, k):
-    print(a+b)
-    print(sorted(a+b))
     j=enumerate_permutation(a+b)
     result_dictionary[(eqn_row, j)] = 1
     calculate_column_values(a, b, k)

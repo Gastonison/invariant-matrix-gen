@@ -44,13 +44,20 @@ def primes(n):
             sieve[i*i::2*i]=[False]*((n-i*i-1)//(2*i)+1)
     return [2] + [i for i in range(3,n,2) if sieve[i]]
 
-print(primes(200))
 def generate_sms(matrix_data, dic):
     items = sorted(dic.items())
     result_string = ""
     for key, val in items:
-        if val != 0:
-            result_string += "{} {} {}\n".format(key[0]+1, key[1]+1, val)
+        result_string += "{} {} {}\n".format(key[0]+1, key[1]+1, val)
+    result_string += "0 0 0\n"
+    create_sms_file(matrix_data, result_string)
+
+
+def generate_sms_array(matrix_data, array):
+    result_string = ""
+    for i in range(len(array)):
+        for k in range(len(array[i])):
+            result_string += "{} {} {}\n".format(i+1, array[i][k][0]+1, array[i][k][1])
     result_string += "0 0 0\n"
     create_sms_file(matrix_data, result_string)
 
