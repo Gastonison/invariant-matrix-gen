@@ -68,7 +68,7 @@ def create_sms_file(matrix_data, result_string):
     return sms_file
 
 def run_spasm_rank():
-    spasm_script = 'cat ../spasm/bench/bivariant_matrix1.sms | ../spasm/bench/rank_hybrid'
+    spasm_script = 'cat ../spasm/bench/bivariant_matrix1.sms | ../spasm/bench/stack | ../spasm/bench/vertical_swap | ../spasm/bench/rank_hybrid'
     response = commands.getstatusoutput(spasm_script)
     rank = response[1].split("s rank = ",1)[1]
     return rank
