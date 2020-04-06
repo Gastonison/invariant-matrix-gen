@@ -1,0 +1,56 @@
+(2, 2)
+----
+Generating Matrix took: 0.0157880783081 seconds
+Generating sms took: 0.00207591056824 seconds
+{'rows': 3, 'cols': 3}
+matrix nullity: 0
+-------------------------
+(3, 3)
+----
+Generating Matrix took: 0.0345368385315 seconds
+Generating sms took: 0.00125813484192 seconds
+{'rows': 24, 'cols': 24}
+matrix nullity: 7
+-------------------------
+(5, 5)
+----
+Generating Matrix took: 0.235076904297 seconds
+Generating sms took: 0.0023820400238 seconds
+{'rows': 240, 'cols': 240}
+matrix nullity: 46
+-------------------------
+(7, 7)
+----
+Generating Matrix took: 0.803024053574 seconds
+Generating sms took: 0.00799584388733 seconds
+{'rows': 1008, 'cols': 1008}
+matrix nullity: 159
+-------------------------
+(11, 11)
+----
+Generating Matrix took: 4.89537906647 seconds
+Generating sms took: 0.0407538414001 seconds
+{'rows': 6600, 'cols': 6600}
+matrix nullity: 855
+-------------------------
+(13, 13)
+----
+Generating Matrix took: 8.76172304153 seconds
+Generating sms took: 0.0796811580658 seconds
+{'rows': 13104, 'cols': 13104}
+matrix nullity: 1602
+-------------------------
+(17, 17)
+----
+Generating Matrix took: 26.2989339828 seconds
+Generating sms took: 0.420864105225 seconds
+{'rows': 39168, 'cols': 39168}
+matrix nullity: 4424
+-------------------------
+(19, 19)
+----
+Generating Matrix took: 43.1784949303 seconds
+Generating sms took: 0.655214071274 seconds
+{'rows': 61560, 'cols': 61560}
+matrix nullity: 6759
+-------------------------

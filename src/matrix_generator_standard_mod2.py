@@ -44,7 +44,6 @@ def generate_enumerated_permutation():
 def enumerate_permutation(perm):
     return enumeration_dictionary[tuple(sorted(perm))]
 
-
 # MARK - This is where the matrix is changed to any other data structure
 # Generates initial values for the Matrix
 def generate_initial_matrix():

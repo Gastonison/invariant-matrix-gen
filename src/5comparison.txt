@@ -1,0 +1,72 @@
+3
+Generating Matrix took: 0.00186896324158 seconds
+Computing rank took: 0.049772977829 seconds
+3 0
+-------------------------
+5
+Generating Matrix took: 0.00458097457886 seconds
+Computing rank took: 0.0460240840912 seconds
+5 0
+-------------------------
+7
+Generating Matrix took: 0.0159659385681 seconds
+Computing rank took: 0.0566220283508 seconds
+7 0
+-------------------------
+11
+Generating Matrix took: 0.129259824753 seconds
+Computing rank took: 0.0912079811096 seconds
+11 0
+-------------------------
+13
+Generating Matrix took: 0.231732130051 seconds
+Computing rank took: 0.128226995468 seconds
+13 0
+-------------------------
+17
+Generating Matrix took: 0.769726991653 seconds
+Computing rank took: 0.440089941025 seconds
+17 0
+-------------------------
+19
+Generating Matrix took: 1.37576603889 seconds
+Computing rank took: 0.969131946564 seconds
+19 0
+-------------------------
+23
+Generating Matrix took: 3.55544185638 seconds
+Computing rank took: 1.33539295197 seconds
+23 0
+-------------------------
+29
+Generating Matrix took: 11.7732450962 seconds
+Computing rank took: 3.95658302307 seconds
+29 0
+-------------------------
+31
+Generating Matrix took: 15.1189320087 seconds
+Computing rank took: 5.52553105354 seconds
+31 0
+-------------------------
+37
+Generating Matrix took: 36.7275760174 seconds
+Computing rank took: 20.8628389835 seconds
+37 0
+-------------------------
+41
+Generating Matrix took: 62.7605779171 seconds
+Computing rank took: 43.928139925 seconds
+41 0
+-------------------------
+43
+Generating Matrix took: 87.7773149014 seconds
+Computing rank took: 86.3555259705 seconds
+43 0
+-------------------------
+47
+Generating Matrix took: 166.807718039 seconds
+Computing rank took: 180.515531063 seconds
+47 0
+-------------------------
+53
+Generating Matrix took: 420.923340082 seconds

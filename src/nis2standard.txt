@@ -1,0 +1,489 @@
+3
+Generating Matrix took: 0.000118970870972 seconds
+Generating sms took: 0.00020694732666 seconds
+Computing rank took: 0.0299470424652 seconds
+3 1
+-------------------------
+5
+Generating Matrix took: 0.000216007232666 seconds
+Generating sms took: 0.000192880630493 seconds
+Computing rank took: 0.0291528701782 seconds
+5 2
+-------------------------
+7
+Generating Matrix took: 0.000349044799805 seconds
+Generating sms took: 0.000225067138672 seconds
+Computing rank took: 0.0296969413757 seconds
+7 3
+-------------------------
+11
+Generating Matrix took: 0.00158095359802 seconds
+Generating sms took: 0.0002760887146 seconds
+Computing rank took: 0.0304651260376 seconds
+11 6
+-------------------------
+13
+Generating Matrix took: 0.00101780891418 seconds
+Generating sms took: 0.000319004058838 seconds
+Computing rank took: 0.0280809402466 seconds
+13 8
+-------------------------
+17
+Generating Matrix took: 0.0018150806427 seconds
+Generating sms took: 0.000417947769165 seconds
+Computing rank took: 0.0278089046478 seconds
+17 13
+-------------------------
+19
+Generating Matrix took: 0.00224208831787 seconds
+Generating sms took: 0.000509977340698 seconds
+Computing rank took: 0.0283539295197 seconds
+19 16
+-------------------------
+23
+Generating Matrix took: 0.00329518318176 seconds
+Generating sms took: 0.000679969787598 seconds
+Computing rank took: 0.0305299758911 seconds
+23 23
+-------------------------
+29
+Generating Matrix took: 0.00517106056213 seconds
+Generating sms took: 0.000958919525146 seconds
+Computing rank took: 0.0316739082336 seconds
+29 36
+-------------------------
+31
+Generating Matrix took: 0.00595712661743 seconds
+Generating sms took: 0.00105714797974 seconds
+Computing rank took: 0.0320701599121 seconds
+31 41
+-------------------------
+37
+Generating Matrix took: 0.00873994827271 seconds
+Generating sms took: 0.00141596794128 seconds
+Computing rank took: 0.0342378616333 seconds
+37 58
+-------------------------
+41
+Generating Matrix took: 0.0108458995819 seconds
+Generating sms took: 0.00169205665588 seconds
+Computing rank took: 0.0339260101318 seconds
+41 71
+-------------------------
+43
+Generating Matrix took: 0.011668920517 seconds
+Generating sms took: 0.00183510780334 seconds
+Computing rank took: 0.0350120067596 seconds
+43 78
+-------------------------
+47
+Generating Matrix took: 0.0142900943756 seconds
+Generating sms took: 0.00217700004578 seconds
+Computing rank took: 0.0349259376526 seconds
+47 93
+-------------------------
+53
+Generating Matrix took: 0.0201890468597 seconds
+Generating sms took: 0.00313019752502 seconds
+Computing rank took: 0.0439138412476 seconds
+53 118
+-------------------------
+59
+Generating Matrix took: 0.0271818637848 seconds
+Generating sms took: 0.00379109382629 seconds
+Computing rank took: 0.0411250591278 seconds
+59 146
+-------------------------
+61
+Generating Matrix took: 0.0246691703796 seconds
+Generating sms took: 0.00363206863403 seconds
+Computing rank took: 0.0388560295105 seconds
+61 156
+-------------------------
+67
+Generating Matrix took: 0.0295379161835 seconds
+Generating sms took: 0.00437307357788 seconds
+Computing rank took: 0.040069103241 seconds
+67 188
+-------------------------
+71
+Generating Matrix took: 0.0330848693848 seconds
+Generating sms took: 0.0047550201416 seconds
+Computing rank took: 0.0438570976257 seconds
+71 211
+-------------------------
+73
+Generating Matrix took: 0.0385448932648 seconds
+Generating sms took: 0.0050630569458 seconds
+Computing rank took: 0.0445449352264 seconds
+73 223
+-------------------------
+79
+Generating Matrix took: 0.0411331653595 seconds
+Generating sms took: 0.00599813461304 seconds
+Computing rank took: 0.0466241836548 seconds
+79 261
+-------------------------
+83
+Generating Matrix took: 0.0510070323944 seconds
+Generating sms took: 0.0068531036377 seconds
+Computing rank took: 0.0494289398193 seconds
+83 288
+-------------------------
+89
+Generating Matrix took: 0.0527319908142 seconds
+Generating sms took: 0.00761699676514 seconds
+Computing rank took: 0.0571129322052 seconds
+89 331
+-------------------------
+97
+Generating Matrix took: 0.0751461982727 seconds
+Generating sms took: 0.0115220546722 seconds
+Computing rank took: 0.0777499675751 seconds
+97 393
+-------------------------
+101
+Generating Matrix took: 0.10608792305 seconds
+Generating sms took: 0.0155320167542 seconds
+Computing rank took: 0.0831758975983 seconds
+101 426
+-------------------------
+103
+Generating Matrix took: 0.0946202278137 seconds
+Generating sms took: 0.012815952301 seconds
+Computing rank took: 0.076514005661 seconds
+103 443
+-------------------------
+107
+Generating Matrix took: 0.100021839142 seconds
+Generating sms took: 0.013158082962 seconds
+Computing rank took: 0.0780119895935 seconds
+107 478
+-------------------------
+109
+Generating Matrix took: 0.0964040756226 seconds
+Generating sms took: 0.0147018432617 seconds
+Computing rank took: 0.0867838859558 seconds
+109 496
+-------------------------
+113
+Generating Matrix took: 0.102744102478 seconds
+Generating sms took: 0.0148940086365 seconds
+Computing rank took: 0.0851809978485 seconds
+113 533
+-------------------------
+127
+Generating Matrix took: 0.126255989075 seconds
+Generating sms took: 0.0159831047058 seconds
+Computing rank took: 0.12371301651 seconds
+127 673
+-------------------------
+131
+Generating Matrix took: 0.177289009094 seconds
+Generating sms took: 0.019767999649 seconds
+Computing rank took: 0.122341871262 seconds
+131 716
+-------------------------
+137
+Generating Matrix took: 0.142338037491 seconds
+Generating sms took: 0.0201869010925 seconds
+Computing rank took: 0.191341161728 seconds
+137 783
+-------------------------
+139
+Generating Matrix took: 0.160287857056 seconds
+Generating sms took: 0.0215470790863 seconds
+Computing rank took: 0.124342918396 seconds
+139 806
+-------------------------
+149
+Generating Matrix took: 0.227034091949 seconds
+Generating sms took: 0.0362031459808 seconds
+Computing rank took: 0.228897094727 seconds
+149 926
+-------------------------
+151
+Generating Matrix took: 0.255722045898 seconds
+Generating sms took: 0.0317490100861 seconds
+Computing rank took: 0.206974983215 seconds
+151 951
+-------------------------
+157
+Generating Matrix took: 0.273608922958 seconds
+Generating sms took: 0.0299119949341 seconds
+Computing rank took: 0.202061891556 seconds
+157 1028
+-------------------------
+163
+Generating Matrix took: 0.271582126617 seconds
+Generating sms took: 0.0332689285278 seconds
+Computing rank took: 0.233862876892 seconds
+163 1108
+-------------------------
+167
+Generating Matrix took: 0.284537792206 seconds
+Generating sms took: 0.0327410697937 seconds
+Computing rank took: 0.32642698288 seconds
+167 1163
+-------------------------
+173
+Generating Matrix took: 0.26807308197 seconds
+Generating sms took: 0.0357239246368 seconds
+Computing rank took: 0.458332061768 seconds
+173 1248
+-------------------------
+179
+Generating Matrix took: 0.511449098587 seconds
+Generating sms took: 0.0385599136353 seconds
+Computing rank took: 0.44672203064 seconds
+179 1336
+-------------------------
+181
+Generating Matrix took: 0.362282037735 seconds
+Generating sms took: 0.0458760261536 seconds
+Computing rank took: 0.480901956558 seconds
+181 1366
+-------------------------
+191
+Generating Matrix took: 0.361460924149 seconds
+Generating sms took: 0.0415120124817 seconds
+Computing rank took: 0.468301057816 seconds
+191 1521
+-------------------------
+193
+Generating Matrix took: 0.540148019791 seconds
+Generating sms took: 0.0470299720764 seconds
+Computing rank took: 0.415693044662 seconds
+193 1553
+-------------------------
+197
+Generating Matrix took: 0.48601603508 seconds
+Generating sms took: 0.0474741458893 seconds
+Computing rank took: 0.449069976807 seconds
+197 1618
+-------------------------
+199
+Generating Matrix took: 0.42316198349 seconds
+Generating sms took: 0.0515999794006 seconds
+Computing rank took: 0.43880200386 seconds
+199 1651
+-------------------------
+211
+Generating Matrix took: 0.558008909225 seconds
+Generating sms took: 0.0604708194733 seconds
+Computing rank took: 0.96196603775 seconds
+211 1856
+-------------------------
+223
+Generating Matrix took: 0.667550086975 seconds
+Generating sms took: 0.0666739940643 seconds
+Computing rank took: 0.748261928558 seconds
+223 2073
+-------------------------
+227
+Generating Matrix took: 0.556389808655 seconds
+Generating sms took: 0.0617408752441 seconds
+Computing rank took: 0.789603948593 seconds
+227 2148
+-------------------------
+229
+Generating Matrix took: 0.568724870682 seconds
+Generating sms took: 0.062038898468 seconds
+Computing rank took: 0.875744104385 seconds
+229 2186
+-------------------------
+233
+Generating Matrix took: 0.583778858185 seconds
+Generating sms took: 0.0632748603821 seconds
+Computing rank took: 1.67952299118 seconds
+233 2263
+-------------------------
+239
+Generating Matrix took: 0.667162895203 seconds
+Generating sms took: 0.0687220096588 seconds
+Computing rank took: 0.863851070404 seconds
+239 2381
+-------------------------
+241
+Generating Matrix took: 0.613388061523 seconds
+Generating sms took: 0.0687921047211 seconds
+Computing rank took: 0.856463909149 seconds
+241 2421
+-------------------------
+251
+Generating Matrix took: 0.660404920578 seconds
+Generating sms took: 0.0740180015564 seconds
+Computing rank took: 1.06681609154 seconds
+251 2626
+-------------------------
+257
+Generating Matrix took: 0.699335098267 seconds
+Generating sms took: 0.0798881053925 seconds
+Computing rank took: 2.58068609238 seconds
+257 2753
+-------------------------
+263
+Generating Matrix took: 0.724078893661 seconds
+Generating sms took: 0.0772089958191 seconds
+Computing rank took: 1.28239893913 seconds
+263 2883
+-------------------------
+269
+Generating Matrix took: 0.771754026413 seconds
+Generating sms took: 0.0821480751038 seconds
+Computing rank took: 1.45196008682 seconds
+269 3016
+-------------------------
+271
+Generating Matrix took: 1.24321293831 seconds
+Generating sms took: 0.0859878063202 seconds
+Computing rank took: 1.59753108025 seconds
+271 3061
+-------------------------
+277
+Generating Matrix took: 0.814842939377 seconds
+Generating sms took: 0.0847809314728 seconds
+Computing rank took: 1.61715102196 seconds
+277 3198
+-------------------------
+281
+Generating Matrix took: 0.868366003036 seconds
+Generating sms took: 0.087504863739 seconds
+Computing rank took: 4.13662004471 seconds
+281 3291
+-------------------------
+283
+Generating Matrix took: 0.860599040985 seconds
+Generating sms took: 0.0913200378418 seconds
+Computing rank took: 1.67465806007 seconds
+283 3338
+-------------------------
+293
+Generating Matrix took: 0.988344192505 seconds
+Generating sms took: 0.104623794556 seconds
+Computing rank took: 2.10796499252 seconds
+293 3578
+-------------------------
+307
+Generating Matrix took: 1.15491199493 seconds
+Generating sms took: 0.123471975327 seconds
+Computing rank took: 2.43508887291 seconds
+307 3928
+-------------------------
+311
+Generating Matrix took: 1.31404709816 seconds
+Generating sms took: 0.119462013245 seconds
+Computing rank took: 2.64592194557 seconds
+311 4031
+-------------------------
+313
+Generating Matrix took: 1.18566513062 seconds
+Generating sms took: 0.129540205002 seconds
+Computing rank took: 2.70455503464 seconds
+313 4083
+-------------------------
+317
+Generating Matrix took: 1.47114992142 seconds
+Generating sms took: 0.15505194664 seconds
+Computing rank took: 3.29668593407 seconds
+317 4188
+-------------------------
+331
+Generating Matrix took: 1.74622106552 seconds
+Generating sms took: 0.166836977005 seconds
+Computing rank took: 3.53986692429 seconds
+331 4566
+-------------------------
+337
+Generating Matrix took: 1.56439614296 seconds
+Generating sms took: 0.188220024109 seconds
+Computing rank took: 4.22642588615 seconds
+337 4733
+-------------------------
+347
+Generating Matrix took: 1.62840914726 seconds
+Generating sms took: 0.153969049454 seconds
+Computing rank took: 4.19770908356 seconds
+347 5018
+-------------------------
+349
+Generating Matrix took: 1.73975682259 seconds
+Generating sms took: 0.153546094894 seconds
+Computing rank took: 4.22432804108 seconds
+349 5076
+-------------------------
+353
+Generating Matrix took: 1.51552295685 seconds
+Generating sms took: 0.148778915405 seconds
+Computing rank took: 4.41650009155 seconds
+353 5193
+-------------------------
+359
+Generating Matrix took: 1.61897206306 seconds
+Generating sms took: 0.151566982269 seconds
+Computing rank took: 4.70881915092 seconds
+359 5371
+-------------------------
+367
+Generating Matrix took: 1.70677495003 seconds
+Generating sms took: 0.161120891571 seconds
+Computing rank took: 5.60637688637 seconds
+367 5613
+-------------------------
+373
+Generating Matrix took: 2.22390413284 seconds
+Generating sms took: 0.175439119339 seconds
+Computing rank took: 5.48801898956 seconds
+373 5798
+-------------------------
+379
+Generating Matrix took: 2.03935599327 seconds
+Generating sms took: 0.182083845139 seconds
+Computing rank took: 6.57561087608 seconds
+379 5986
+-------------------------
+383
+Generating Matrix took: 2.57802915573 seconds
+Generating sms took: 0.24022102356 seconds
+Computing rank took: 6.23660612106 seconds
+383 6113
+-------------------------
+389
+Generating Matrix took: 1.91737699509 seconds
+Generating sms took: 0.181780099869 seconds
+Computing rank took: 6.27858114243 seconds
+389 6306
+-------------------------
+397
+Generating Matrix took: 2.38738203049 seconds
+Generating sms took: 0.227337121964 seconds
+Computing rank took: 7.64867591858 seconds
+397 6568
+-------------------------
+401
+Generating Matrix took: 2.58354711533 seconds
+Generating sms took: 0.297548055649 seconds
+Computing rank took: 8.86506509781 seconds
+401 6701
+-------------------------
+409
+Generating Matrix took: 2.70836305618 seconds
+Generating sms took: 0.226701974869 seconds
+Computing rank took: 9.15034484863 seconds
+409 6971
+-------------------------
+419
+Generating Matrix took: 2.84017515182 seconds
+Generating sms took: 0.225879192352 seconds
+Computing rank took: 10.1865370274 seconds
+419 7316
+-------------------------
+421
+Generating Matrix took: 2.3427400589 seconds
+Generating sms took: 0.232136964798 seconds
+Computing rank took: 10.1781589985 seconds
+421 7386
+-------------------------
+431
+Generating Matrix took: 2.66026997566 seconds
+Generating sms took: 0.242508888245 seconds

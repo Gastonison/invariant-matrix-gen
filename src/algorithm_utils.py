@@ -52,7 +52,6 @@ def generate_sms(matrix_data, dic):
     result_string += "0 0 0\n"
     create_sms_file(matrix_data, result_string)
 
-
 def generate_sms_array(matrix_data, array):
     result_string = ""
     for i in range(len(array)):
